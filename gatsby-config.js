@@ -6,5 +6,8 @@ module.exports = {
                 postCssPlugins: [require("tailwindcss")()],
             },
         },
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-sharp`,
+        { resolve: `gatsby-source-filesystem`, options: { path: `./src/images/` } },
     ],
 }

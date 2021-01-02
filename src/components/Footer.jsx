@@ -4,11 +4,11 @@ import assets from "../data/assetUrls";
 
 const Footer = ({ bgColour, honeydew }) => (
   <div>
-    <div className="anotherFooterFlex">
+    <div className="">
       <Link to="/">
-        <img src={assets.logo}className="footerLogo" alt="Jump to start of website" />
+        <img src={assets.logo}className="w-1/5" alt="Jump to start of website" />
       </Link>
-      <div className="footerIconDiv">
+      <div className="flex">
         <a href="https://www.instagram.com/shaibrides">
           <img src={require("../icons/insta.svg")} alt="Instagram" />
         </a>
@@ -17,7 +17,7 @@ const Footer = ({ bgColour, honeydew }) => (
         </a>
       </div>
     </div>
-    <span className="smallPrint text-cyan-500">
+    <span className="text-cyan">
       © B29 2021. Artwork by ... . Website by <a href="">Meghan Avery</a>.
     </span>
   </div>
