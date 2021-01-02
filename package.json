@@ -16,11 +16,16 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.2.0",
     "autoprefixer": "^10.1.0",
     "gatsby": "^2.26.1",
     "gatsby-plugin-postcss": "^3.4.0",
     "gatsby-plugin-sass": "^2.8.0",
-    "postcss": "^8.2.1",
+    "node-sass": "^4.14.1",
+    "postcss": "^8.1.7",
+    "postcss-import": "^13.0.0",
+    "postcss-nested": "^5.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "tailwindcss": "^2.0.2"
