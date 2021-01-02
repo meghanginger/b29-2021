@@ -5,14 +5,15 @@ import Footer from "../components/Footer";
 import Img from 'gatsby-image';
 
 const indexPage = ({ data }) => (
-  <div className="w-screen h-screen">
-    <Img fluid={data.textureBg.childImageSharp.fluid} className="fixed z-0 w-screen h-screen" />
-    <div className="p-10 fixed top-0 right-0">
+
+   <div className="p-10">
       <B29Banner />
+      <DatesList />
+      <DatesList />
       <DatesList />
       <Footer />
     </div>
-  </div>
+
 );
 
 // <Img fluid={data.textureBg.childImageSharp.fluid} className="fixed" />
