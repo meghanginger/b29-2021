@@ -5,9 +5,13 @@
 
 html {
   overflow-x: hidden;
-  background-color: #e2d6a6;
+  background-color: #d8cec4;
   background-image: url('/images/bg-min.jpg');
   background-size: 1200px,900px,200px;
   background-position: 0 0,100% 100%,50%;
   background-attachment: fixed,scroll,scroll;
+}
+
+.svgBlack {
+  filter: brightness(0) saturate(100%);
 }

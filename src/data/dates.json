@@ -1,34 +1,46 @@
 [
   {
-    "date": "Wednesday 3rd",
+    "date": "Thursday 10th",
+    "acts": [
+      "Fergus Channell",
+      "Tradin' Fives",
+      "Jango"
+    ],
+    "link": ""
+  },
+  {
+    "date": "Monday 14th",
+    "acts": [
+      "Sriracha People",
+      "Midge",
+      "Daisy Houlder"
+    ],
+    "link": ""
+  },
+  {
+    "date": "Tuesday 15th",
+    "acts": [
+      "Demelza",
+      "The Reservoir Cats",
+      "Taran Puri"
+
+    ],
+    "link": ""
+  },
+  {
+    "date": "Wednesday 16th",
     "acts": [
       "The Creature Appeal",
-      "Mind at large",
+      "Mind At Large",
       "Ebby Vallance"
     ],
     "link": ""
   },
   {
-    "date": "Thursday 4th",
+    "date": "Thursday 17th",
     "acts": [
       "Jack Frohlich",
-      "Special Guests"
-    ],
-    "link": ""
-  },
-  {
-    "date": "Thursday 11th",
-    "acts": [
-      "Demelza",
-      "The Reservoir Cats"
-    ],
-    "link": ""
-  },
-  {
-    "date": "Thursday 18th",
-    "acts": [
-      "Fergus Channell",
-      "Tradin' Fives"
+      "Peter Barrington"
     ],
     "link": ""
   },
@@ -38,15 +50,6 @@
       "Shai Brides",
       "Dame",
       "Harico"
-    ],
-    "link": ""
-  },
-  {
-    "date": "Wednesday 24th",
-    "acts": [
-      "Sriracha People",
-      "Midge",
-      "Daisy Houlder"
     ],
     "link": ""
   }

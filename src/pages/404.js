@@ -1,7 +1,7 @@
 import React from 'react';
 
 const imLost = () => (
-  <div />
+  <div/>
 );
 
 

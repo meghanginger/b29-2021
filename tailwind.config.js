@@ -20,7 +20,8 @@ module.exports = {
         blue: colors.lightBlue,
         red: colors.rose,
         pink: colors.fuchsia,
-        black: colors.black
+        black: colors.black,
+        beige: "#d3ccbc"
       },
       spacing: {
         '128': '32rem',
@@ -29,13 +30,12 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
       },
-      backgroundImage: theme => ({
-        'pattern': "url('/images/bg-min.jpg')",
-      })
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      transitionDuration: ['hover', 'focus'],
+    },
   },
   plugins: [
     require("postcss-import"),
